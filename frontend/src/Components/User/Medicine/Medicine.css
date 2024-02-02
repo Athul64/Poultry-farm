@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+.m{
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+
+.fillm{
+    font-size: 16px;
+    font-weight: 300;
+    position: absolute;
+    top: 175px;
+    left: 60px;
+}
+input{
+    width: 190px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.d{
+    position: absolute;
+    top: 210px;
+    left: 60px;
+}
+
+.dv{
+    position: absolute;
+    top: 210px;
+    left: 260px;
+}
+
+.q{
+    position: absolute;
+    top: 290px;
+    left: 60px;
+}
+
+.mn{
+    position: absolute;
+    top: 290px;
+    left: 260px;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.bm button{
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #299D91;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.bm button:hover{
+    background-color: #fff;
+    color: #299D91;
+}
+
+.bm{
+    position: absolute;
+    top: 370px;
+    left: 230px;
+}
+
+.mmtable{
+    width: 950px;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: none;
+    position: absolute;
+    top: 260px;
+    left: 500px;
+}
+
+.mrecords{
+    position: absolute;
+    top: 230px;
+    left: 480px;
+ 
+}

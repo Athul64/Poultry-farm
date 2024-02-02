@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in the box model */
+}
+
+.navitems {
+  padding: 15px;
+  position: absolute;
+  top: 65px;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: #ffffff;
+  width: 100%; /* Use full width */
+  max-width: 1600px; /* Set a maximum width */
+  height: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.navitems > span {
+  padding: 0 90px; /* Adjust padding */
+}
+
+img {
+  width: 25%;
+  max-width: 100%; /* Make sure the image is responsive */
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px; /* Adjust margin for smaller screens */
+}
+
+@media screen and (max-width: 768px) {
+  .navitems {
+    padding: 10px;
+  }
+
+  .navitems > span {
+    padding: 0 5px; /* Adjust padding for smaller screens */
+  }
+}
