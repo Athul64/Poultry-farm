@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function Home() {
   return (

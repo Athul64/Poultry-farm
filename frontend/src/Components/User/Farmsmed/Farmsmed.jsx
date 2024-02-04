@@ -4,18 +4,25 @@ import './Farmsmed.css'
 function Farmsmed() {
   return (
     <div>
-    <div className='mm'>
+    <div className='mmg'>
     Medicine Management
     </div>
-    <div className='yf'>
+    <div className='yff'>
     Your Farm
     </div>
-    <div className='cho'>
+    <div className='chaa'>
     1.ChickenHubOne - License ID:2332
     </div>
-    <div className='ch'>
-    1.ChickenHub - License ID:1332
+    <div className='chai'>
+    2.ChickenHub - License ID:1332
     </div>
+    <div className='navitems'>
+    <span>Add Farm Details</span>
+    <span>Feed Management</span>
+    <span>Medicine Management</span>
+    <span>Mortality Tracking</span>
+    <span>Help & Support</span>
+  </div>
     </div>
   )
 }

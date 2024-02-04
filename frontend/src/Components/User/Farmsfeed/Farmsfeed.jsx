@@ -4,18 +4,25 @@ import './Farmsfeed.css'
 function Farmsfeed() {
   return (
     <div>
-    <div className='fm'>
+    <div className='fmq'>
     Feed Management
     </div>
-    <div className='yf'>
+    <div className='yfw'>
     Your Farm
     </div>
-    <div className='cho'>
+    <div className='erty'>
     1.ChickenHubOne - License ID:2332
     </div>
-    <div className='ch'>
+    <div className='chui'>
     1.ChickenHub - License ID:1332
     </div>
+    <div className='navitems'>
+    <span>Add Farm Details</span>
+    <span>Feed Management</span>
+    <span>Medicine Management</span>
+    <span>Mortality Tracking</span>
+    <span>Help & Support</span>
+  </div>
     </div>
   )
 }

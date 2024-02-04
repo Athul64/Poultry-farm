@@ -24,13 +24,7 @@
   padding: 0 90px; /* Adjust padding */
 }
 
-img {
-  width: 25%;
-  max-width: 100%; /* Make sure the image is responsive */
-  display: block;
-  margin: 0 auto;
-  margin-top: 60px; /* Adjust margin for smaller screens */
-}
+
 
 @media screen and (max-width: 768px) {
   .navitems {
@@ -40,4 +34,12 @@ img {
   .navitems > span {
     padding: 0 5px; /* Adjust padding for smaller screens */
   }
+}
+
+img {
+  width: 25%;
+  max-width: 100%; /* Make sure the image is responsive */
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px; /* Adjust margin for smaller screens */
 }

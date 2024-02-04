@@ -14,7 +14,7 @@ import Addpage from '../pages/User/Addpage'
 function UserRouter() {
   return (
     <Routes>
-    <Route path='/user' element={<Loginpage/>}/>
+    <Route path='/' element={<Loginpage/>}/>
     <Route path='/home' element={<Homepage/>}/>
     <Route path='/help' element={<Helppage/>}/>
     <Route path='/farmsfeed' element={<Farmpage/>}/>

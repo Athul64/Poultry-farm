@@ -1,0 +1,190 @@
+
+.af{
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 115px;
+    left: 20px;
+}
+
+.fn{
+    font-size: 16px;
+    font-weight: 300;
+    position: absolute;
+    top: 170px;
+    left: 50px;
+}
+ 
+.fn input{
+    position: absolute;
+    top: 35px;
+    left: 0px;
+}
+
+.fl{
+    font-size: 16px;
+    font-weight: 300;
+    position: absolute;
+    top: 170px;
+    left: 250px;
+    padding: 0 10px;
+}
+ 
+.fl input{
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    padding: 0 10px;
+}
+
+.ph{
+    font-size: 16px;
+    font-weight: 300;
+    position: absolute;
+    top: 250px;
+    left: 38px;
+    padding: 0 10px;
+}
+ 
+.ph input{
+    width: 410px;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    padding: 0 10px;
+}
+
+.ads{
+    font-size: 16px;
+    font-weight: 300;
+    position: absolute;
+    top: 325px;
+    left: 38px;
+    padding: 0 10px;
+}
+ 
+.ads input{
+    width: 410px;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    padding: 0 10px;
+}
+
+.st{
+    font-size: 16px;
+    font-weight: 300;
+    position: absolute;
+    top: 410px;
+    left: 38px;
+    padding: 0 10px;
+}
+
+.st input{
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    padding: 0 10px;
+}
+
+.con{
+    font-size: 16px;
+    font-weight: 300;
+    position: absolute;
+    top: 410px;
+    left: 250px;
+    padding: 0 10px;
+}
+
+.con input{
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    padding: 0 10px;
+}
+.pz{
+    font-size: 16px;
+    font-weight: 300;
+    position: absolute;
+    top: 500px;
+    left: 38px;
+    padding: 0 10px;
+}
+
+.pz input{
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    padding: 0 10px;
+}
+.pop{
+    font-size: 16px;
+    font-weight: 300;
+    position: absolute;
+    top: 500px;
+    left: 250px;
+    padding: 0 10px;
+}
+
+.pop input{
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    padding: 0 10px;
+}
+
+.ab button{
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #299D91;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ab button:hover{
+    background-color: #fff;
+    color: #299D91;
+}
+
+.ab{
+    position: absolute;
+    top: 590px;
+    left: 190px;
+}
+
+.choo {
+    display: flex;
+    width: 700px;
+    padding: 11px 50px; 
+    align-items: center;
+    border-radius: 8px;
+    background: #299D91;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    font-size: 16px;
+    font-weight: 300;
+    overflow-x: hidden; 
+}
+
+.chooo {
+    display: flex;
+    width: 700px; 
+    padding: 11px 50px; 
+    align-items: center;
+    border-radius: 8px;
+    background: #299D91;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 280px;
+    left: 550px;
+    font-size: 16px;
+    font-weight: 300;
+    overflow-x: hidden; 
+}

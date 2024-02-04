@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
-.fm {
+.fmq {
     font-size: 16px;
     font-weight: 400;
     position: absolute;
-    top: 95px;
+    top: 150px;
     left: 30px;
 }
 
-.yf {
+.yfw {
     font-size: 18px;
     font-weight: 300;
     position: absolute;
-    top: 125px;
+    top: 200px;
     left: 35px;
 }
 
-.cho {
+.erty {
     display: flex;
     width: 1200px;
     padding: 11px 50px; 
@@ -25,14 +25,14 @@
     background: #299D91;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     position: absolute;
-    top: 160px;
+    top: 240px;
     left: 50px;
     font-size: 16px;
     font-weight: 300;
     overflow-x: hidden; 
 }
 
-.ch {
+.chui{
     display: flex;
     width: 1200px; 
     padding: 11px 50px; 
@@ -41,9 +41,38 @@
     background: #299D91;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     position: absolute;
-    top: 220px;
+    top: 300px;
     left: 50px;
     font-size: 16px;
     font-weight: 300;
     overflow-x: hidden; 
 }
+.navitems {
+    padding: 15px;
+    position: absolute;
+    top: 65px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #ffffff;
+    width: 100%; /* Use full width */
+    max-width: 1600px; /* Set a maximum width */
+    height: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .navitems > span {
+    padding: 0 90px; /* Adjust padding */
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    .navitems {
+      padding: 10px;
+    }
+  
+    .navitems > span {
+      padding: 0 5px; /* Adjust padding for smaller screens */
+    }
+  }

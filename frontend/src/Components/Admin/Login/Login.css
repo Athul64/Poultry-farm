@@ -42,9 +42,10 @@ label {
   margin-top: 8px;
   font-weight: 300;
   color: black;
+  text-align: left;
 }
 
-.loginb{
+.loginbu{
   color: #ffffff;
   display: flex;
   height: 45px;
@@ -55,8 +56,7 @@ label {
   padding: 6px 8px;
   border: none;
   position: absolute;
-  top: 490px; 
-  margin-left: -125px;
+  top: 510px; 
   align-items: center;
   justify-content: center;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -64,7 +64,7 @@ label {
   font-weight: 600;
 }
 
-.loginb:hover{
+.loginbu:hover{
   background-color: #ffffff;
   color:#299D91;
 }
@@ -95,7 +95,3 @@ label {
   color:#ffffff
 }
 
-.placeholder{
-  display: contents;
-  text-align: left;
-}
