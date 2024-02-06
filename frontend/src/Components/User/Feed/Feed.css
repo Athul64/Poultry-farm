@@ -23,13 +23,26 @@ input{
 .fr{
     position: absolute;
     top: 210px;
-    left: 60px;
+    left: 70px;
+}
+
+.fr input{
+    padding: 10px;
+    position: absolute;
+    top: 34px;
+    left: 5px;
 }
 
 .fc{
     position: absolute;
     top: 210px;
-    left: 260px;
+    left: 270px;
+}
+.fc input{
+    padding: 10px;
+    position: absolute;
+    top: 34px;
+    right: 55px;
 }
 
 ::placeholder{
@@ -57,7 +70,7 @@ input{
 .bf{
     position: absolute;
     top: 290px;
-    left: 225px;
+    left: 215px;
 }
 
 .fmtable{
@@ -72,7 +85,7 @@ input{
 
 .frecords{
     position: absolute;
-    top: 190px;
-    left: 490px;
+    top: 185px;
+    left: 500px;
  
 }

@@ -3,7 +3,18 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Include padding and border in the box model */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  width: 25%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 75px;
 }
 
 .navitems {
@@ -13,33 +24,33 @@
   font-size: 13px;
   font-weight: 500;
   background-color: #ffffff;
-  width: 100%; /* Use full width */
-  max-width: 1600px; /* Set a maximum width */
+  width: 100%; 
   height: 50px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  margin: 0 auto; /* Center the container horizontally */
 }
 
-.navitems > span {
-  padding: 0 90px; /* Adjust padding */
+.navitems span {
+  text-decoration-line: none;  
+  color: #191919;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 80px;
 }
 
-
-
+/* Media Query for screens smaller than 768px */
 @media screen and (max-width: 768px) {
+  img {
+    width: 50%;
+    margin-top: 40px;
+  }
+
   .navitems {
-    padding: 10px;
+    top: 50px;
+    font-size: 0px;
+    height: 40px;
   }
 
-  .navitems > span {
-    padding: 0 5px; /* Adjust padding for smaller screens */
+  .navitems span {
+    padding: 0 10px;
   }
-}
-
-img {
-  width: 25%;
-  max-width: 100%; /* Make sure the image is responsive */
-  display: block;
-  margin: 0 auto;
-  margin-top: 60px; /* Adjust margin for smaller screens */
 }

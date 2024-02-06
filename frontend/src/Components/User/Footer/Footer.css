@@ -13,10 +13,18 @@
   font-size: 16px;
 }
 
+.about h3{
+  margin-right: 600px;
+}
+
+
 .quick {
   position: absolute;
   top: 550px;
   right: 150px;
 }
 
- 
+.quick  {
+  display: block;
+  justify-content: space-between;
+}

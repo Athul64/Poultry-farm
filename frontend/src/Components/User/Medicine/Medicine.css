@@ -27,10 +27,22 @@ input{
     left: 60px;
 }
 
+.d input{
+    position: absolute;
+    top: 34px;
+    left: 0px;
+}
+
 .dv{
     position: absolute;
     top: 210px;
     left: 260px;
+}
+
+.dv input{
+    position: absolute;
+    top: 34px;
+    left: 0px;
 }
 
 .q{
@@ -39,11 +51,24 @@ input{
     left: 60px;
 }
 
+.q input {
+    position: absolute;
+    top: 34px;
+    left: 0px;
+}
+
 .mn{
     position: absolute;
     top: 290px;
     left: 260px;
 }
+
+.mn input{
+    position: absolute;
+    top: 34px;
+    left: 0px;
+}
+
 
 ::placeholder{
     text-align: center;
@@ -71,7 +96,7 @@ input{
 .bm{
     position: absolute;
     top: 370px;
-    left: 230px;
+    left: 190px;
 }
 
 .mmtable{
@@ -86,7 +111,7 @@ input{
 
 .mrecords{
     position: absolute;
-    top: 230px;
-    left: 480px;
+    top: 220px;
+    left: 500px;
  
 }

@@ -14,8 +14,7 @@ function Login() {
       </div>
       <div>
         <label>Password</label>
-        <input type='password' id='password' name='password' 
-        placeholder='..................'/>
+        <input type='password' id='password' name='password' />
         <br/>
       </div>
       <div>

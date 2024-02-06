@@ -11,7 +11,7 @@ function Feed() {
     Fills the details about your feed
     </div>
     <div className='fr'>
-    <label>Feed Received</label>
+    Feed Received
     <input type='text'  id='number' placeholder='No of bags'/>
     </div>
     <div className='fc'>

@@ -20,11 +20,11 @@ function Feed() {
     </div>
     <div className='q'>
     <label>Quantity</label>
-    <input type='text'  id='number' placeholder='No of bags'/>
+    <input type='text'  id='number' placeholder=''/>
     </div>
     <div className='mn'>
     <label>Medicine Name</label>
-    <input type='text'  id='name' placeholder='No of bags'/>
+    <input type='text'  id='name' placeholder=''/>
     </div>
     <div className='bm'> 
     <button>Submit</button>

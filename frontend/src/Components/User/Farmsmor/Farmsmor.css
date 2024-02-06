@@ -4,7 +4,7 @@
     font-size: 16px;
     font-weight: 400;
     position: absolute;
-    top: 150px;
+    top: 170px;
     left: 30px;
 }
 
@@ -17,6 +17,7 @@
 }
 
 .chdfo {
+    color: #fff;
     display: flex;
     width: 1200px;
     padding: 11px 50px; 
@@ -33,6 +34,7 @@
 }
 
 .dfdd {
+    color: #fff;
     display: flex;
     width: 1200px; 
     padding: 11px 50px; 
@@ -47,32 +49,4 @@
     font-weight: 300;
     overflow-x: hidden; 
 }
-.navitems {
-    padding: 15px;
-    position: absolute;
-    top: 65px;
-    font-size: 13px;
-    font-weight: 500;
-    background-color: #ffffff;
-    width: 100%; /* Use full width */
-    max-width: 1600px; /* Set a maximum width */
-    height: 50px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin: 0 auto; /* Center the container horizontally */
-  }
-  
-  .navitems > span {
-    padding: 0 90px; /* Adjust padding */
-  }
-  
-  
-  
-  @media screen and (max-width: 768px) {
-    .navitems {
-      padding: 10px;
-    }
-  
-    .navitems > span {
-      padding: 0 5px; /* Adjust padding for smaller screens */
-    }
-  }
+

@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Chart() {
+function Adduser() {
   return (
     <div></div>
   )
 }
 
-export default Chart
+export default Adduser

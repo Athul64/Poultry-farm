@@ -43,7 +43,7 @@ function Login() {
             type='email'
             id='email'
             name='email'
-            placeholder='Enter your email address'
+            placeholder='enter your email address'
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.email}
@@ -59,7 +59,7 @@ function Login() {
             type='password'
             id='password'
             name='password'
-            placeholder='..................'
+            placeholder=''
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.password}

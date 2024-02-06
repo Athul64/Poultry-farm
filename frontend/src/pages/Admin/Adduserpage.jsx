@@ -1,16 +1,16 @@
 import React from 'react'
-import Farm from '../../Components/Admin/Farm/Farm'
+import Adduser from '../../Components/Admin/Adduser/Adduser'
 import Header from '../../Components/Admin/Header/Header'
 import Sidebar from '../../Components/Admin/Sidebar/Sidebar'
 
-function Farmpage() {
+function Adduserpage() {
   return (
     <div>
     <Header/>
     <Sidebar/>
-    <Farm/> 
+    <Adduser/>
     </div>
   )
 }
 
-export default Farmpage
+export default Adduserpage
