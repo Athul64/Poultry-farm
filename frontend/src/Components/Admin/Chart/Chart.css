@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cr{
+    position: absolute;
+    top: 85px;
+    left: 700px;
+}

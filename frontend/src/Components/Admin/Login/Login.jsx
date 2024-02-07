@@ -2,6 +2,7 @@ import React from 'react';
 import './Login.css';
 import { useNavigate } from 'react-router-dom';
 import { useFormik } from 'formik';
+import * as Yup from 'yup';
 
 function Login() {
   const navigate = useNavigate();
@@ -11,21 +12,12 @@ function Login() {
       email: '',
       password: '',
     },
-    validate: (values) => {
-      const errors = {};
-
-      if (!values.email) {
-        errors.email = 'Email is required';
-      } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
-        errors.email = 'Invalid email address';
-      }
-
-      if (!values.password) {
-        errors.password = 'Password is required';
-      }
-
-      return errors;
-    },
+    validationSchema: Yup.object({
+      email: Yup.string()
+        .email('Invalid email address')
+        .required('Email is required'),
+      password: Yup.string().required('Password is required'),
+    }),
     onSubmit: (values) => {
       console.log(values);
       navigate('/admin/home');
@@ -43,7 +35,7 @@ function Login() {
             type='email'
             id='email'
             name='email'
-            placeholder='enter your email address'
+            placeholder='Enter your email address'
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.email}
@@ -77,7 +69,7 @@ function Login() {
       </form>
       <br />
       <div>
-        <button className='topright'>Login</button>
+        <button className='toprightad'>Login</button>
       </div>
     </div>
   );

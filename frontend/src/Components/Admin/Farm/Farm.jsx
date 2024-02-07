@@ -1,10 +1,13 @@
 import React from 'react';
 import'./Farm.css'
+import { useNavigate } from 'react-router-dom';
 
-function Farm() {
+export default function Farm() {
+  const navigate = useNavigate();
+  
   return (
     <div>
-      <div className="tablet1">
+      <div className="tablet1" onClick={() => navigate('/admin/report')}>
         <table1>
           <tbody>
                 Farm name:ChickenHubOne<br/>
@@ -16,7 +19,7 @@ function Farm() {
           </tbody>
         </table1>
       </div>
-       <div className='tablet2'>
+       <div className='tablet2' onClick={() => navigate('/admin/report')}>
        <table2>
         <tbody>
             Farm name : ChickenHub<br/>
@@ -31,4 +34,4 @@ function Farm() {
   );
 }
 
-export default Farm
+ 

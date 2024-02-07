@@ -1,8 +1,11 @@
 import React from 'react'
+import './Chart.css'
 
 function Chart() {
   return (
-    <div></div>
+    <div className='cr'>
+    chart
+    </div>
   )
 }
 

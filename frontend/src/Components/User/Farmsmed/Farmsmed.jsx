@@ -23,11 +23,11 @@ function Farmsmed() {
     </div>
     </Link>
     <div className='navitems'>
-    <Link to='/add'><span>Add Farm Details</span></Link>
-    <Link to='/farmsfeed'><span>Feed Management</span></Link>
-    <Link to='/farmsmed'><span>Medicine Management</span></Link>
-    <Link to='/farmsmor'><span>Mortality Tracking</span></Link>
-    <Link to='/help'><span>Help & Support</span></Link>
+    <Link to='/add' className='adfd'><span>Add Farm Details</span></Link>
+    <Link to='/farmsfeed' className='fdm'><span>Feed Management</span></Link>
+    <Link to='/farmsmed' className='mdm'><span>Medicine Management</span></Link>
+    <Link to='/farmsmor' className='mot'><span>Mortality Tracking</span></Link>
+    <Link to='/help' className='hps'><span>Help & Support</span></Link>
   </div>
     </div>
   )

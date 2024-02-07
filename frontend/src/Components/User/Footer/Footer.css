@@ -14,17 +14,20 @@
 }
 
 .about h3{
-  margin-right: 600px;
+  margin-right: 750px;
 }
 
 
 .quick {
+  line-height: 2;
   position: absolute;
   top: 550px;
   right: 150px;
 }
 
-.quick  {
-  display: block;
-  justify-content: space-between;
+
+
+.about p{
+  line-height: 2;
+  text-align: justify;
 }

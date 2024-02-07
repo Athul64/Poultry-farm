@@ -16,13 +16,14 @@
   .help {
     font-size: 18px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 150px;
   }
   
   /* Styles for the 'issue' section */
   .issue {
     font-size: 16px;
     margin-top: 10px;
+    margin-right: 240px;
   }
   
   /* Styles for the 'sbox' section */
@@ -46,6 +47,8 @@
   .issues {
     font-size: 16px;
     margin-top: 10px;
+    margin-right: 240px;
+
   }
   
   /* Styles for the 'bbox' section */

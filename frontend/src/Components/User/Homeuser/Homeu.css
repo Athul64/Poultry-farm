@@ -29,28 +29,45 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.navitems span {
-  text-decoration-line: none;  
+.navitems span { 
   color: #191919;
   font-size: 14px;
   font-weight: 500;
   padding: 0 80px;
 }
 
-/* Media Query for screens smaller than 768px */
-@media screen and (max-width: 768px) {
+.adfd{
+  text-decoration: none;
+}
+
+.fdm{
+  text-decoration: none;
+}
+
+.mdm{
+  text-decoration: none;
+}
+
+.mot{
+  text-decoration: none;
+}
+
+.hps{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1440px) {
   img {
-    width: 50%;
-    margin-top: 40px;
+    width: 50%; /* Adjust image width for smaller screens */
+    margin-top: 50px; /* Adjust margin-top for smaller screens */
   }
 
   .navitems {
-    top: 50px;
-    font-size: 0px;
-    height: 40px;
+    font-size: 12px; /* Adjust font size for smaller screens */
+    top: 50px; /* Adjust top position for smaller screens */
   }
 
-  .navitems span {
-    padding: 0 10px;
+  .navitems span { 
+    padding: 0 60px; /* Adjust padding for smaller screens */
   }
 }
