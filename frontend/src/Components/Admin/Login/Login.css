@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
 
 * {
   margin: 0;
@@ -15,10 +16,10 @@
   height: 100vh;
 }
 
-h1 {
-  font-size: 45px;
+.alh {
+  font-size: 55px;
   color: #299D91;
-  font-family: 'Righteous', sans-serif;
+  font-family: 'Protest Riot';
 }
 
 label {
@@ -45,6 +46,8 @@ label {
 }
 
 .loginbu{
+  border: none;
+  font-family: 'Protest Riot';
   color: #ffffff;
   display: flex;
   height: 45px;
@@ -69,11 +72,12 @@ label {
 }
 
 .toprightad {
+  font-family: 'Protest Riot';
   color: #299D91;
   display: block;
   height: 45px;
   width: 150px;
-  font-size: 16px;
+  font-size: 26px;
   border-radius: 8px;
   background-color: #ffffff;
   padding: 0 10px;
@@ -98,4 +102,10 @@ label {
   font-size: 14px;
   font-weight: 300;
   margin-bottom: 10px;
+
 }
+
+.login input::placeholder{
+  text-align: left;
+}
+

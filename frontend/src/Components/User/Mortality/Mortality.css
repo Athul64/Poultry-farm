@@ -30,6 +30,7 @@ input{
     position: absolute;
     top: 34px;
     left: 0px;
+    padding: 0 10px;
 }
 
 
@@ -43,6 +44,7 @@ input{
     position: absolute;
     top: 34px;
     left: 0px;
+    padding: 0 10px;
 }
 
 ::placeholder{
@@ -53,7 +55,7 @@ input{
     width: 120px;
     height: 35px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     background-color: #299D91;
     border: none;
     border-radius: 5px;
@@ -69,11 +71,12 @@ input{
 
 .bmm{
     position: absolute;
-    top: 290px;
+    top: 300px;
     left: 190px;
 }
 
 .mtable{
+    border-collapse: collapse;
     width: 950px;
     border-style: solid;
     border-width: 1px;
@@ -88,4 +91,20 @@ input{
     top: 180px;
     left: 500px;
  
+}
+
+.da .error{
+    margin-top: 40px;
+    margin-right: 170px;
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.qu .error{
+    margin-top: 40px;
+    margin-right: 170px;
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
 }

@@ -4,11 +4,9 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
-.login {
+.loginuser {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -17,106 +15,10 @@
   height: 100vh;
 }
 
-h1 {
-  font-size: 45px;
+.agh {
+  font-size: 55px;
   color: #299D91;
-  font-family: 'Righteous', sans-serif;
-}
-
-label {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 16px;
-  font-weight: 500;
-  text-align: left;
-  width: 250px;
-}
-
-#email,
-#password {
-  display: block;
-  height: 40px;
-  padding: 0 10px;
-  font-size: 16px;
-  width: 250px;
-  border-radius: 8px;
-  margin-top: 8px;
-  font-weight: 300;
-  color: black;
-}
-
-.loginb{
-  color: #ffffff;
-  display: flex;
-  height: 45px;
-  width: 250px;
-  font-size: 26px;
-  border-radius: 8px;
-  background-color: #299D91;
-  padding: 6px 8px;
-  border: none;
-  position: absolute;
-  top: 490px; 
-  margin-left: -125px;
-  align-items: center;
-  justify-content: center;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.loginb:hover{
-  background-color: #ffffff;
-  color:#299D91;
-}
-
-.topright {
-  color: #528680;
-  display: block;
-  height: 45px;
-  width: 150px;
-  font-size: 16px;
-  border-radius: 8px;
-  background-color: #ffffff;
-  padding: 0 10px;
-  border: none;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 24px;
-  flex-shrink: 0;
-  cursor: pointer;
-}
-
-.topright:hover{
-  background-color: #299D91;
-  color:#ffffff
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.login {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-h1 {
-  font-size: 45px;
-  color: #299D91;
-  font-family: 'Righteous', sans-serif;
+  font-family: 'Protest Riot';
 }
 
 label {
@@ -143,6 +45,7 @@ label {
 }
 
 .loginbus {
+  font-family: 'Protest Riot';
   color: #ffffff;
   display: flex;
   height: 45px;
@@ -158,7 +61,8 @@ label {
   justify-content: center;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   cursor: pointer;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 400;
 }
 
 .loginbus:hover{
@@ -167,11 +71,12 @@ label {
 }
 
 .toprightus {
+  font-family: 'Protest Riot';
   color: #299D91;
   display: block;
   height: 45px;
   width: 150px;
-  font-size: 16px;
+  font-size: 24px;
   border-radius: 8px;
   background-color: #ffffff;
   padding: 0 10px;
@@ -181,7 +86,7 @@ label {
   top: 15px;
   right: 15px;
   font-style: normal;
-  font-weight: 600;
+  font-weight:300;
   line-height: 24px;
   cursor: pointer;
 }
@@ -197,3 +102,8 @@ label {
   font-weight: 300;
   margin-bottom: 10px;
 }
+
+.loginuser input::placeholder{
+  text-align: left;
+}
+

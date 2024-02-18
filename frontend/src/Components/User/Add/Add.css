@@ -19,6 +19,7 @@
     position: absolute;
     top: 35px;
     left: 0px;
+    padding: 0 10px;
 }
 
 .fl{
@@ -137,7 +138,7 @@
     width: 120px;
     height: 35px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     background-color: #299D91;
     border: none;
     border-radius: 5px;
@@ -158,8 +159,9 @@
 }
 
 .choo {
+    color: #fff;
     display: flex;
-    width: 700px;
+    width: 850px;
     padding: 11px 50px; 
     align-items: center;
     border-radius: 8px;
@@ -169,13 +171,14 @@
     top: 200px;
     left: 550px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     overflow-x: hidden; 
 }
 
 .chooo {
+    color: #fff;
     display: flex;
-    width: 700px; 
+    width: 850px; 
     padding: 11px 50px; 
     align-items: center;
     border-radius: 8px;
@@ -185,6 +188,6 @@
     top: 280px;
     left: 550px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     overflow-x: hidden; 
 }

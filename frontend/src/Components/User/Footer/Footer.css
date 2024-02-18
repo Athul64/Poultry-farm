@@ -25,9 +25,16 @@
   right: 150px;
 }
 
+.quick span{
+  color: #191919;
+}
 
 
 .about p{
   line-height: 2;
   text-align: justify;
+}
+
+.hf{
+  text-decoration: none;
 }

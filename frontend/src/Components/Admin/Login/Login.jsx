@@ -16,7 +16,12 @@ function Login() {
       email: Yup.string()
         .email('Invalid email address')
         .required('Email is required'),
-      password: Yup.string().required('Password is required'),
+      password: Yup.string()
+        .required('Password is required')
+        .matches(
+          /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,}$/,
+          'Invalid password'
+        ),
     }),
     onSubmit: (values) => {
       console.log(values);
@@ -26,7 +31,7 @@ function Login() {
 
   return (
     <div className='login'>
-      <h1>Poultry Farm</h1>
+      <div className='alh'>Poultry Farm</div>
       <br />
       <form onSubmit={formik.handleSubmit}>
         <div className='email-button'>
@@ -51,7 +56,7 @@ function Login() {
             type='password'
             id='password'
             name='password'
-            placeholder=''
+            placeholder='Enter your password'
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.password}

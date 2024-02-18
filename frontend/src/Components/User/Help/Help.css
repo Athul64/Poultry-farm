@@ -1,77 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
-/* Resetting some default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Styles for the container div */
   div {
-    text-align: center; /* Center content inside the container */
+    text-align: center; 
   }
   
-  /* Styles for the 'help' section */
   .help {
     font-size: 18px;
     font-weight: bold;
     margin-top: 150px;
   }
   
-  /* Styles for the 'issue' section */
+
   .issue {
     font-size: 16px;
     margin-top: 10px;
     margin-right: 240px;
   }
   
-  /* Styles for the 'sbox' section */
+ 
   .sbox {
+    padding: 0 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
   }
   
-  /* Styles for the input inside 'sbox' */
+ 
   .sbox input {
+    padding: 0 10px;
     width: 25%;
-    padding: 25px; /* Increase the height of the text box */
+    height: 45px; 
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
   }
   
-  /* Styles for the 'issues' section */
   .issues {
     font-size: 16px;
     margin-top: 10px;
     margin-right: 240px;
-
   }
   
-  /* Styles for the 'bbox' section */
+  .bbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  } 
+
   .bbox input {
+    padding-bottom: 65px;
+    padding-left: 10px;
     width: 25%;
-    padding: 55px; /* Increase the height of the text box */
+    height: 100px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
     margin-top: 10px;
+
   }
   
-  /* Styles for the 'buttonhelp' section */
+  
   .buttonhelp {
     margin-top: 20px;
   }
   
-  /* Styles for the button inside 'buttonhelp' */
+  
   .buttonhelp button {
+    font-weight: 600;
     width: 120px;
     height: 35px;
     padding: 0px 20px;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #299D91;
     color: #fff;
     border: none;
@@ -81,6 +88,8 @@
   }
 
   .buttonhelp button:hover{
+    font-size: 20px;
+    font-weight: 600;
     background-color: #fff;
     color: #299D91;
   }

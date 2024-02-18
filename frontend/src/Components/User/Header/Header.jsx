@@ -1,16 +1,18 @@
-import React from 'react'
-import './Header.css'
+import React from 'react';
+import './Header.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <div className='nav'>
-      <div className='nav-title'>POULTRY FARM
+      <div className='nav-title'>
+      <Link to="/home" className='abcd'>Poultry farm</Link>
+      </div>
+      <div>
+        <Link to="/" className='bcde' >Logout</Link>
+      </div>
     </div>
-      <div><button className='userlogoutbutton'>Logout</button>
-</div>
-</div>
-
-  )
+  );
 }
 
-export default Header
+export default Header;

@@ -31,6 +31,7 @@ input{
     position: absolute;
     top: 34px;
     left: 0px;
+    padding: 0 10px;
 }
 
 .dv{
@@ -43,6 +44,7 @@ input{
     position: absolute;
     top: 34px;
     left: 0px;
+    padding: 0 10px;
 }
 
 .q{
@@ -54,7 +56,8 @@ input{
 .q input {
     position: absolute;
     top: 34px;
-    left: 0px;
+    left: 0px;   
+    padding: 0 10px;
 }
 
 .mn{
@@ -67,6 +70,7 @@ input{
     position: absolute;
     top: 34px;
     left: 0px;
+    padding: 0 10px;
 }
 
 
@@ -78,7 +82,7 @@ input{
     width: 120px;
     height: 35px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     background-color: #299D91;
     border: none;
     border-radius: 5px;
@@ -95,11 +99,12 @@ input{
 
 .bm{
     position: absolute;
-    top: 370px;
-    left: 190px;
+    top: 385px;
+    left: 180px;
 }
 
 .mmtable{
+    border-collapse: collapse;
     width: 950px;
     border-style: solid;
     border-width: 1px;
@@ -115,3 +120,36 @@ input{
     left: 500px;
  
 }
+
+.d .error{
+    margin-top: 40px;
+    margin-right: 170px;
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dv .error{
+    margin-top: 40px;
+    margin-right: 170px;
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.q .error{
+    margin-top: 40px;
+    margin-right: 170px;
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mn .error{
+    margin-top: 40px;
+    margin-right: 170px;
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+}
+

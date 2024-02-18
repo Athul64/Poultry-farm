@@ -3,7 +3,9 @@ import Loginuser from '../../Components/User/Loginuser/Loginu'
 
 function Loginpage() {
   return (
-    <div><Loginuser/></div>
+    <div>
+    <Loginuser/>
+    </div>
   )
 }
 

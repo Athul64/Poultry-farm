@@ -53,7 +53,7 @@ input{
     width: 120px;
     height: 35px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     background-color: #299D91;
     border: none;
     border-radius: 5px;
@@ -70,10 +70,11 @@ input{
 .bf{
     position: absolute;
     top: 290px;
-    left: 215px;
+    left: 200px;
 }
 
 .fmtable{
+    border-collapse: collapse;
     width: 950px;
     border-style: solid;
     border-width: 1px;
@@ -87,5 +88,32 @@ input{
     position: absolute;
     top: 185px;
     left: 500px;
- 
 }
+
+/* Example CSS for styling toast messages */
+.Toastify__toast-container {
+    z-index: 9999;
+  }
+  
+  /* Default toast */
+  .Toastify__toast {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  /* Success toast */
+  .Toastify__toast--success {
+    background-color: #4caf50;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+  
+  /* Error toast */
+  .Toastify__toast--error {
+    background-color: #f44336;
+    color: #ffffff;
+    margin-top: 50px;
+
+  }
+  

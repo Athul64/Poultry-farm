@@ -16,7 +16,12 @@ function Login() {
       email: Yup.string()
         .email('Invalid email address')
         .required('Email is required'),
-      password: Yup.string().required('Password is required'),
+      password: Yup.string()
+        .required('Password is required')
+        .matches(
+          /^(?=.*[0-9])(?=.*[!@#$%^&*])(?=.*[a-zA-Z])[a-zA-Z0-9!@#$%^&*]{8,}$/,
+        'Invalid password'
+        ),
     }),
     onSubmit: (values) => {
       console.log(values);
@@ -25,8 +30,8 @@ function Login() {
   });
 
   return (
-    <div className='login'>
-      <h1>Poultry Farm</h1>
+    <div className='login'> {/* Using 'login' class from Loginu.css */}
+      <div className='agh'>Poultry Farm</div> {/* Using 'agh' class from Loginu.css */}
       <br />
       <form onSubmit={formik.handleSubmit}>
         <div className='email-button'>
@@ -51,7 +56,7 @@ function Login() {
             type='password'
             id='password'
             name='password'
-            placeholder=''
+            placeholder='Enter your password'
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.password}
@@ -62,14 +67,14 @@ function Login() {
           ) : null}
         </div>
         <div>
-          <button className='loginbus' type='submit'>
+          <button className='loginbu' type='submit'>
             Login
           </button>
         </div>
       </form>
       <br />
       <div>
-        <button className='toprightus'>Login</button>
+        <button className='toprightus'>Login</button> {/* Using 'toprightus' class from Loginu.css */}
       </div>
     </div>
   );
